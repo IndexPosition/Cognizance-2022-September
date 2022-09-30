@@ -1,0 +1,27 @@
+@import 'nav.css';
+
+.header-section {
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section .logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.header-section .sub-heading {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow: 10px;
+}
